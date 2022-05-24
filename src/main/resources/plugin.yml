@@ -1,30 +1,11 @@
-name: EnderVillagePlugin
+name: CaseOpening
 version: '${project.version}'
-main: de.robble.endervillageplugin.Main
+main: de.robble.caseopening.Main
 api-version: 1.18
-authors: [ Robble21 ]
-description: Plugin für EnderVillage
 
 commands:
-  fly:
-    description: lässt dich fliegen.
-  vanish:
-    description: macht dich unsichtbar.
-    aliases: ["v"]
-  invsee:
-    description: schaut in andere Inventare.
-  bc:
-    description: sendet eine auffällige nachicht an den Chat.
-
-permissions:
-  endervillage:
-    fly:
-      description: lässt dich fliegen.
-    vanish:
-      description: macht dich unsichtbar.
-    invsee:
-      description: schaut in andere Inventare.
-    bc:
-      description: sendet eine auffällige nachicht an den Chat.
-    break:
-      description: lässt dich blöcke abbauen.
+  kisten:
+    description: lässt dich kisten öffnen und kaufen
+  dkspin:
+  ekspin:
+  vkspin:
